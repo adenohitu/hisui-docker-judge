@@ -1,1 +1,3 @@
 # hisui-judge-docker
+
+Hisuiのローカルジャッジマシン
