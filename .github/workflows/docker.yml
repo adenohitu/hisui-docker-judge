@@ -18,7 +18,7 @@ jobs:
 
       - name: Build :latest
         if: success()
-        run: docker build -t adenohitu/hisui-judge-docker:latest .
+        run: docker buildx -t adenohitu/hisui-judge-docker:latest .
 
       - name: Deploy :latest
         if: success()
